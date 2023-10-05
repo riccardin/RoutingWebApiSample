@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  db.routing.api:
+    image: db.routing.api
+    build:
+      context: ./DB.Routing.Api
+      dockerfile: Dockerfile
